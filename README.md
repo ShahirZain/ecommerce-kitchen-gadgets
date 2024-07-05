@@ -23,6 +23,17 @@ This project utilizes the LangChain framework and the Llama 3 model, integrated 
 ## Installation
 Follow these steps to set up the project:
 
+## Preparing the Llama 3 Model with Ollama
+
+**Pull the Llama 3 model**:
+```sh
+ollama pull llama3
+```
+****Run the Llama 3 model****
+````sh
+ollama run llama3
+````
+
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/yourusername/your-repo.git
@@ -46,3 +57,19 @@ Follow these steps to set up the project:
 To start the development server, run:
 ```sh
 npm run start:dev
+```
+
+
+The server will be running at [http://localhost:3000](http://localhost:3000).
+
+## Contributing
+
+We welcome contributions to improve this project! To contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a Pull Request.
+
